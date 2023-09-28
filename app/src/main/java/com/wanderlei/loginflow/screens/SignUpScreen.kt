@@ -14,6 +14,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import com.wanderlei.loginflow.R
+import com.wanderlei.loginflow.components.CheckboxComponent
 import com.wanderlei.loginflow.components.HeadingTextComponent
 import com.wanderlei.loginflow.components.MyTextFieldComponent
 import com.wanderlei.loginflow.components.NormalTextComponent
@@ -49,6 +50,8 @@ fun SignUpScreen() {
                 labelValue = stringResource(R.string.password),
                 painterResource = painterResource(id = R.drawable.lock),
             )
+
+            CheckboxComponent()
         }
 
     }
