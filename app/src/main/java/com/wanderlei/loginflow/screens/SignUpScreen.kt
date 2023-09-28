@@ -17,6 +17,7 @@ import com.wanderlei.loginflow.R
 import com.wanderlei.loginflow.components.HeadingTextComponent
 import com.wanderlei.loginflow.components.MyTextFieldComponent
 import com.wanderlei.loginflow.components.NormalTextComponent
+import com.wanderlei.loginflow.components.PasswordTextFieldComponent
 
 @Composable
 fun SignUpScreen() {
@@ -44,7 +45,7 @@ fun SignUpScreen() {
                 labelValue = stringResource(R.string.e_mail),
                 painterResource = painterResource(id = R.drawable.mail),
             )
-            MyTextFieldComponent(
+            PasswordTextFieldComponent(
                 labelValue = stringResource(R.string.password),
                 painterResource = painterResource(id = R.drawable.lock),
             )

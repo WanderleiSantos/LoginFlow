@@ -6,4 +6,6 @@
     <string name="last_name">Last Name</string>
     <string name="e_mail">E-mail</string>
     <string name="password">Password</string>
+    <string name="hide_password">Hide Password</string>
+    <string name="show_password">Show Password</string>
 </resources>
